@@ -1,0 +1,27 @@
+// 研究方向脑图
+digraph {
+	fontname=Arial fontsize=10 rankdir=TB size="20,10"
+	node [color=lightblue fontname=Arial fontsize=10 shape=ellipse style=filled]
+	edge [arrowhead=open arrowsize=0.5 fontname=Arial fontsize=8]
+	A [label="会议脑图摘要"]
+	B [label="研究方向一：非侵入式人员生理状态监测技术"]
+	C [label="研究方向二：人因致灾脑波信号机理分析技术"]
+	B1 [label="对应急管理的支撑"]
+	B2 [label="科学问题"]
+	B3 [label="预期成效"]
+	B4 [label="研究内容"]
+	C1 [label="对应急管理的支撑"]
+	C2 [label="科学问题"]
+	C3 [label="预期成效"]
+	C4 [label="研究内容"]
+	A -> B
+	A -> C
+	B -> B1
+	B -> B2
+	B -> B3
+	B -> B4
+	C -> C1
+	C -> C2
+	C -> C3
+	C -> C4
+}

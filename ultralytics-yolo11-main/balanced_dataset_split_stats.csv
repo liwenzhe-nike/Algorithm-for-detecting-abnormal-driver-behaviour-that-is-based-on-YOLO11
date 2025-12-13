@@ -1,0 +1,6 @@
+Behavior,Training Set Count,Validation Set Count,Test Set Count,Total Count
+Phone,422,118,60,600
+drinking,420,120,60,600
+yawning,419,120,60,599
+drowsy,419,120,60,599
+smoking,419,120,60,599
